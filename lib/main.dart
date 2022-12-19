@@ -34,9 +34,9 @@ class DarkModeDemo extends StatelessWidget {
                       box.put('darkMode', value);
                     },
                   ),
-                  Card(
+                  const Card(
                     child: Padding(
-                      padding: const EdgeInsets.all(8.0),
+                      padding: EdgeInsets.all(8.0),
                       child: Text('Card Color'),
                     ),
                   )
